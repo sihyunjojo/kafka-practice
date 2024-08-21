@@ -14,5 +14,6 @@
 
 ---
 # Kafka Tool
-debezium
+debezium  
 kafka ui
+AKHQ
