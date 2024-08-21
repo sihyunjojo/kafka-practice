@@ -15,7 +15,7 @@
 ---
 # Kafka Tool
 debezium  
-kafka ui (UI for Apache Kafka)  (결정)
+kafka ui (UI for Apache Kafka)  (결정)  
 AKHQ  
 
 
