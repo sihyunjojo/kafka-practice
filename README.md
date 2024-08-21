@@ -15,8 +15,8 @@
 ---
 # Kafka Tool
 debezium  
-kafka ui  
-AKHQ
+kafka ui (UI for Apache Kafk)  
+AKHQ  
 
 
 | 기능                             | KafkaWebUiService (Provectus Kafka UI)                                                        | AKHQ                                                                                                 |
