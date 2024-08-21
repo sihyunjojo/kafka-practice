@@ -10,3 +10,9 @@
 
 
 3. 브로커 및 클러스터 전체 정상 작동 확인
+
+
+---
+# Kafka Tool
+debezium
+kafka ui
