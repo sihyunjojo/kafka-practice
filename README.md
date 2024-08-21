@@ -41,6 +41,12 @@ CMAK (운영 중심 도구): 주로 Kafka 클러스터의 운영 작업에 초�
 제한된 기능: UI for Apache Kafka에 비해 상대적으로 적은 기능을 제공합니다.  
 
 ---
+일반적인 프로세스는 다음과 같습니다:  
+Kafka가 메트릭을 노출: Kafka는 특정 엔드포인트를 통해 브로커 CPU 사용량, 요청 지연 시간, 메시지 처리 속도 등의 메트릭을 노출할 수 있습니다.  
+Prometheus가 메트릭을 수집: Prometheus는 설정된 엔드포인트(메트릭 서버)에서 이러한 메트릭을 정기적으로 수집(scraping)합니다. Prometheus는 해당 엔드포인트의 호스트와 포트를 설정하여 이 데이터를 수집합니다.  
+메트릭 분석 및 시각화: Prometheus에 수집된 메트릭은 PromQL(프로메테우스 쿼리 언어)을 통해 분석할 수 있으며, Grafana와 같은 도구를 사용하여 대시보드 형태로 시각화할 수 있습니다.  
+
+---
 참조  
 https://techblog.gccompany.co.kr/aws-msk-part3-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81%EC%9D%84-%EA%B5%AC%EC%B6%95%ED%95%B4%EB%B3%BC%EA%B9%8C%EC%9A%94-fe9a7109f4d  
 https://www.reddit.com/r/apachekafka/comments/16tdoiv/suggestions_for_ui_for_aws_managed_kafka/  
